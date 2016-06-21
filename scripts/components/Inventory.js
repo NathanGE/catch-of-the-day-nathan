@@ -43,7 +43,7 @@ class Inventory extends React.Component {
   authHandler(err, authData) {
     console.log("In the auth handler");
     if(err) {
-      console.err(err);
+      console.error(err);
       return;
     }
 
